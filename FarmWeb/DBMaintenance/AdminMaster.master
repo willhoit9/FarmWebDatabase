@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Farm.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+
+    <div id="adminMasterMenu" style="float: left; ">
+        <asp:Menu ID="adminMenu" runat="server" StaticSubMenuIndent="16px" 
+            CssClass="menu">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/AdminOnly.aspx" Text="Admin Home" 
+                    Value="Admin Home"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/ProductionPage.aspx" 
+                    Text="Production" Value="Production"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/FieldPage.aspx" Text="Field Maint" 
+                    Value="FieldMaint"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/SeedPage.aspx" Text="Seed Maint" 
+                    Value="SeedMaint"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/ChemicalPage.aspx" Text="Chemical Maint" 
+                    Value="ChemMaint"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DBMaintenance/Brand.aspx" Text="Brand Maint" 
+                    Value="BrandMaint"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+    <div id="adminPageMain" style="float:none">
+      <asp:ContentPlaceHolder ID="adminMainContentHolder" runat="server">
+      
+      </asp:ContentPlaceHolder>
+
+    </div>
+
+
+</asp:Content>
+

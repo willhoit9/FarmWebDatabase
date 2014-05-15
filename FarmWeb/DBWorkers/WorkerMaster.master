@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Farm.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server">
+
+
+
+<div id="workerMasterMenu" style="float: left; ">
+        <asp:Menu ID="workerMenu" runat="server" StaticSubMenuIndent="16px" 
+            CssClass="menu">
+            <Items>
+                <asp:MenuItem Text="Worker Home" 
+                    Value="WorkerHome" NavigateUrl="WorkerHome.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="wProductionPage.aspx" 
+                    Text="Production" Value="Production"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="wFieldPage.aspx" Text="Field Maint" 
+                    Value="FieldMaint"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="wSeedPage.aspx" Text="Seed Maint" 
+                    Value="SeedMaint"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="wChemicalPage.aspx" Text="Chemical Maint" 
+                    Value="ChemMaint"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+
+    <div id="workerPageMain" style="float:none">
+      <asp:ContentPlaceHolder ID="workerMainContentHolder" runat="server">
+      
+      </asp:ContentPlaceHolder>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</asp:Content>
+

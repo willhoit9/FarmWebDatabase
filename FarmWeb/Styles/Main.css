@@ -1,0 +1,346 @@
+﻿body
+{
+    font-family: 'Montserrat' , sans-serif;
+    background-color: #DAEAD5;
+    color: #D7E3E2;
+}
+
+
+#masterPage
+{
+    width: 98%;
+    min-width: 1075px;
+    max-width: 1250px;
+    background-color: #C9E1C1;
+    background-image: url('../Images/Barn4.jpg');
+    margin: 20px auto 0px auto;
+    /*border: 1px solid #FF3B19; */
+}
+
+#headerMaster
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+   /* background: #4b6c9e; */
+    background: #0F9FB4;
+    width: 100%;
+}
+
+
+#HeadLoginView_HeadLoginStatus
+{
+    color: #284775; 
+}
+
+
+.bold
+{
+    text-transform: capitalize;
+    font-weight:bold;
+    color: #0FB493;
+}
+
+/* this is the FARM on the masterpage */
+#headerMaster h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px; /* color: #f9f9f9; */
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+    font-size: 4em;
+    color: #D7E3E2;
+}
+
+
+#titleMaster
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+
+
+#loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+}
+
+
+#mainMaster
+{
+    
+    padding: 0px 12px;
+    padding-left: 0px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+div.hideSkiplink
+{
+   /* background-color:#3a4f63; */
+    /* background color of div that holds the menu */
+    background-color: #0FB493;
+    width:100%;
+}
+
+#
+
+#adminPageMain
+{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+#adminMasterMenu 
+{
+    padding-right: 30px;
+}
+
+
+#workerPageMain
+{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#workerMasterMenu 
+{
+    padding-right: 30px;
+}
+
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /* background-color of menu tiles */
+    background-color: #0F9FB4; /*border: 1px #FF3B19 solid;*/ /*  color of the text in the menu tiles */
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+   /* background-color: #41FFAC; limey green */
+    background-color: #152737; 
+  /*  background-color: #0F9FB4; */
+    color: #dde4ec;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #00692E;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+
+
+
+.validation
+{
+    color: Red;
+}
+
+
+
+table a
+{
+    color: #284775; 
+}
+
+table th
+{
+    color: #284775; 
+}
+
+
+#loginBody
+{
+    
+    width : 400px;
+    margin: 20px auto 0px auto;
+    background-color: #152737; 
+    color: #D7E3E2;
+    text-align: center; 
+}
+
+#loginBody h2
+{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+
+#welcomeMain
+{
+    width: 700px;
+    margin: 20px auto 0px auto;
+    background-color: #152737; /* color: #f9f9f9; */
+    color: #D7E3E2;
+    text-align: center;
+}
+
+#welcomeMain h2
+{
+    
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#welcomeMain h3
+{
+    text-indent: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#aboutMain
+{
+    width: 700px;
+    margin: 20px auto 0px auto;
+    background-color: #152737; /* color: #f9f9f9; */
+    color: #D7E3E2;
+    text-align: center;
+}
+
+#aboutMain h2
+{
+    
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#aboutMain h3
+{
+    text-indent: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+
+#adminOnlyMain
+{
+    width: 700px;
+    margin: 0px auto 0px auto;
+    background-color: #152737; /* color: #f9f9f9; */
+    color: #D7E3E2;
+    
+}
+
+#adminOnlyMain h2
+{
+    text-align: center;
+    padding-top: 0px;
+    font-size: 40px;
+}
+
+#adminOnlyMain p
+{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#workerMain
+{
+    width: 700px;
+    margin: 20px auto 0px auto;
+    background-color: #152737; /* color: #f9f9f9; */
+    color: #D7E3E2;
+    
+}
+
+#workerMain h2
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+#workerMain p
+{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+
+
+
+.tableHolder 
+{
+    display: inline-block;
+    background-color: #152737;
+}
+
+/*table 
+{
+    border: 20px solid #152737;
+    border-collapse: separate;
+    padding-top: 0px;
+}
+*/
+
+
+
+.validation 
+{
+    font-size: small;
+}
+
+
+
+.pageDBError 
+{
+    color: #0FB493;
+    font-size: small;
+    width: 490px;
+    padding-left: 6px;
+}
+
+
+
+.clear
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+ /* FIELDPAGE */
+
+
+
